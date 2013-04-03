@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- common -->
+    <string name="app_name">Регистратор</string>
+    <string name="activity_settings">Настройки</string>
+    <string name="param_yes">Да</string>
+    <string name="param_no">Нет</string>
+    <string name="param_quality_hight">Высокое</string>
+    <string name="param_quality_medium">Среднее</string>
+    <string name="param_quality_low">Низкое</string>
+    <string name="param_type_foto">Фото</string>
+    <string name="param_type_video">Видео</string>
+    <string name="param_lang_ru">Русский</string>
+    <string name="param_quality_en">Английский</string>
+        
+    <!-- toast, notify -->
+    <string name="notify_startapp">Регистратор запущен</string>
+    <string name="notify_text">Нажмите для перехода к настройкам</string>
+	<string name="notify_stopapp">Регистратор остановлен</string>
+	<string name="notify_success_save">Настройки сохранены</string>
+	<string name="video_title">Идет съемка</string>
+	
+	<!-- dialog -->
+	<string name="dialog_list_title">Выберите значение</string>
+	
+	<!-- settings -->
+	<string name="settings_autostart">Автостарт</string>
+	<string name="settings_type">Тип</string>
+	<string name="settings_sound_enable">Испол. звук</string>
+	<string name="settings_time_foto">Время съемки фото</string>
+	<string name="settings_time_video">Время съемки видео</string>
+	<string name="settings_time_work">Время срабатывания</string>
+	<string name="settings_quality_foto">Качество фото</string>
+	<string name="settings_quality_video">Качество видео</string>
+	<string name="settings_quality_sound">Качество звука</string>
+	<string name="settings_catalog">Каталог</string>
+	<string name="settings_catalog_size">Размер файлов</string>
+	<string name="settings_save_state">Сохранять состояние</string>
+	<string name="settings_time_save_state">Периодичность</string>
+	<string name="settings_sync">Синхронизировать</string>
+	<string name="settings_save">Сохранить</string>
+	
+	<!-- default value -->
+	<string name="param_default_time_foto">60</string>
+	<string name="param_default_time_video">20</string>
+	<string name="param_default_timework">10</string>
+	<string name="param_default_type">video</string>
+	
+    <!-- layouts -->
+    <string name="loading_txt_header">Регистратор</string>
+    <string name="loading_btn_settings">Настройки</string>
+    <string name="loading_btn_start">Запуск</string>
+    <string name="loading_btn_exit">Выход</string>
+    
+    <!-- errors -->
+    <string name="errors_initialize">Произошла ошибка при запуске приложения</string>
+    <string name="errors_settings_save">Произошла ошибка при попытке сохранить настройки</string>
+    <string name="errors_settings_read">Произошла ошибка при чтении файла настроек</string>
+    
+    <!-- dimentions -->
+    <dimen name="headerTextSize">35sp</dimen>
+    <dimen name="defaultTextSize">25sp</dimen>
+    <dimen name="defaultPaddingTop">5sp</dimen>
+    <dimen name="radius">15sp</dimen>
+    <dimen name="defaultLinearLayoutPadding">20sp</dimen>
+    
+    <!-- colors -->
+    <color name="headerColor">#000</color>
+    <color name="defaultBtnColor">#000</color>
+    <color name="pressedBtnColor">#aaa</color>
+</resources>
